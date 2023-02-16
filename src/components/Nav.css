@@ -1,0 +1,145 @@
+
+
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    background-color: white;
+}
+.nav-img{
+    width: 20%;
+}
+
+.nav-img img{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+.nav-1{
+    width: 80%;
+    padding: 10px;
+}
+.nav-btn{
+    border: transparent;
+    color: black;
+    font-size: larger;
+    padding: 9px;
+}
+.nav-btn1{
+    color: white;
+    border: transparent;
+    padding: 9px;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.home{
+    width: 100vw;
+    height: 100px;
+}
+.popup{
+    top:7%;
+    left:32.6%;
+    height:200px;
+    width:50%;
+    background-color: red;
+    position: absolute;
+   
+}
+.popup1{
+    top:8%;
+    left:37%;
+    height:200px;
+    width:50%;
+    background-color: red;
+    position: absolute;
+   
+}
+
+.popup2{
+    top:8%;
+    left:41%;
+    height:200px;
+    width:50%;
+    background-color: red;
+    position: absolute;
+   
+}
+.popup3{
+    top:8%;
+    left:45%;
+    height:200px;
+    width:50%;
+    background-color: red;
+    position: absolute;
+   
+}
+.buy-header{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 30px 0 29px;
+    border-bottom: 2px solid grey;
+}
+.buy-header1{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 30px 0 29px;
+    border-bottom: 2px solid grey;
+}
+.buy-header2{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 30px 0 29px;
+    border-bottom: 2px solid grey;
+}
+.buy-header3{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 30px 0 29px;
+    border-bottom: 2px solid grey;
+}
+
+.buy-subheader a{
+    color:white;
+    text-decoration: none;
+}
+.buy-subheader1 a{
+    color:white;
+    text-decoration: none;
+}
+.buy-subheader2 a{
+    color:white;
+    text-decoration: none;
+}
+.buy-subheader3 a{
+    color:white;
+    text-decoration: none;
+}
+.buy-subheader {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px 0 60px;
+    
+}
+.buy-subheader1 {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px 0 60px;
+    
+}
+.buy-subheader2 {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px 0 60px;
+    
+}
+.buy-subheader3 {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px 0 60px;
+    
+}
