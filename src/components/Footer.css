@@ -1,0 +1,29 @@
+.foot{
+    background-color: lightcoral;
+    height: 200px;
+    margin-top: -20px;
+}
+.foot h1{
+    color: black;
+}
+.youtube{
+    color: red;
+    font-size: 200%;
+}
+.twitter{
+    color: lightblue;
+    font-size: 200%;
+}
+.insta{
+    color:purple;
+    font-size: 200%;
+}
+.facebook{
+    color: blue;
+    
+    font-size: 200%;
+}
+.what{
+    color: green;
+    font-size: 200%;
+}

@@ -1,5 +1,6 @@
 import react from 'react';
 import './Section.css';
+import Home from './images/Home.jpg'
 function Section1(){
 return(
 <>
@@ -9,15 +10,6 @@ return(
     </div>
 
 </div>
-<div className="mb-search_wrap">
-<div className="mb-search_location">
-
-   
-    </div>
-
-
-</div>
-
 
 </>
 

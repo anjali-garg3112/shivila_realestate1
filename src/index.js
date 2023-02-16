@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Section1 from './components/Section1.js';
+import Footer from './components/Footer';
 
 
 
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Section1 />
+    <Footer />
   </React.StrictMode>
 );
 

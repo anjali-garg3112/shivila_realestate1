@@ -79,6 +79,16 @@
     position: absolute;
    
 }
+.popup4{
+    top:8%;
+    left:45%;
+    height:200px;
+    width:50%;
+    background-color: red;
+    position: absolute;
+   
+}
+
 .buy-header{
     display: flex;
     justify-content:space-between;
@@ -103,6 +113,13 @@
     padding: 0 30px 0 29px;
     border-bottom: 2px solid grey;
 }
+.buy-header4{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 30px 0 29px;
+    border-bottom: 2px solid grey;
+}
+
 
 .buy-subheader a{
     color:white;
@@ -117,6 +134,10 @@
     text-decoration: none;
 }
 .buy-subheader3 a{
+    color:white;
+    text-decoration: none;
+}
+.buy-subheader4 a{
     color:white;
     text-decoration: none;
 }
@@ -142,5 +163,18 @@
     display: flex;
     justify-content:space-between;
     padding: 10px 20px 0 60px;
+    
+}
+
+.buy-subheader4 {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px 0 60px;
+    
+}
+.page{
+    display: flex;
+    flex-direction: row-reverse;
+     margin-top: -40px;
     
 }

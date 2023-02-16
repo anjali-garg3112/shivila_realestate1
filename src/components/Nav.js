@@ -1,6 +1,8 @@
 
 import React,{useState} from 'react';
 import logo  from './images/logo.jpeg'; 
+
+
 import './Nav.css';
 function Nav(){
     const[popup,setPop]=useState(false);
@@ -9,6 +11,8 @@ function Nav(){
     const[popup2,setPop2]=useState(false);
     
     const[popup3,setPop3]=useState(false);
+    const[popup4,setPop4]=useState(false);
+    
     const trackbuy=()=>{
         setPop(!popup);
     }
@@ -21,11 +25,15 @@ function Nav(){
     const trackbuy3=()=>{
         setPop3(!popup3);
     }
+    const trackbuy4=()=>{
+        setPop4(!popup4);
+    }
     return(
         <>
        
 <nav className="navbar">
 <div className="nav-img"><img src={logo}/></div> 
+  
     <div className="nav-1">
         <button className="nav-btn" onMouseEnter={trackbuy}>Buy
         <div>
@@ -171,11 +179,56 @@ function Nav(){
 </div>
 
 </button>
-        <button className="nav-btn">Agent Finder</button>
+        <button className="nav-btn" onMouseEnter={trackbuy4}>Agent Finder
+        <div>
+                    {popup4?
+                    <div className="popup4">
+                        <div className="buy-header4">
+                            <h3>Popular Choices</h3>
+                            <h3>Property Types</h3>
+                            <h3>Budget</h3>
+                            
+                        </div>
+                        <div className="buy-subheader4">
+                         <a href="">Ready to move</a>
+                         <a href="">Flats in New-Delhi</a>
+                         <a href="">Under Rs40Lacs</a>
+                         
+
+                        </div>
+                        <div className="buy-subheader4">
+                         <a href="">Owner Property</a>
+                         <a href="">House For Sale In Delhi</a>
+                         <a href=""> Rs40Lacs-1Cr</a>
+                         
+
+                        </div>
+                        <div className="buy-subheader4">
+                         <a href="">Ready to move</a>
+                         <a href="">Flats in New-Delhi</a>
+                         <a href="">Under Rs40Lacs</a>
+                         
+
+                        </div>
+                    </div>:""}
+                    
+</div>
+
+        
+        </button>
         <button className="nav-btn">My Homes</button>
         <button className="nav-btn">Advertise</button>
-        <button className="nav-btn">Log In</button>
+        <form action="" className='page'>
+        
+            
+
+        
+        
+        <button className="nav-btn">Login</button>
+    
+        
         <button className="nav-btn1">Sign up</button>
+        </form>
     </div>
     
 </nav>
