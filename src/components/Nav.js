@@ -1,5 +1,6 @@
 
 import React,{useState} from 'react';
+import logo  from './images/logo.jpeg'; 
 import './Nav.css';
 function Nav(){
     const[popup,setPop]=useState(false);
@@ -22,9 +23,9 @@ function Nav(){
     }
     return(
         <>
-        
+       
 <nav className="navbar">
-    <div className="nav-img"></div>
+<div className="nav-img"><img src={logo}/></div> 
     <div className="nav-1">
         <button className="nav-btn" onMouseEnter={trackbuy}>Buy
         <div>
@@ -178,6 +179,7 @@ function Nav(){
     </div>
     
 </nav>
+
         </>
     )
 }
